@@ -7,4 +7,10 @@ def main(k,n):
     Returns:
         list: return  answer
     """
-    return
+    list1 = []
+    a=0
+    while a<n:
+        list1=list1+[k]
+        a+=1
+    return list1
+print (main(3,5))

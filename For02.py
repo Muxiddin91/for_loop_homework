@@ -6,4 +6,10 @@ def main(n):
     Returns:
         string: return  answer
     """
-    return
+    list1 = []
+    a = 0
+    while a<n:
+        list1=list1+[str(a)]
+        a+=1
+    return list1
+print (main(5))

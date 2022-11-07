@@ -7,4 +7,9 @@ def main(A,B):
     Returns:
         int: return  answer
     """
-    return
+    x = 0
+    while A<=B:
+        x+=A
+        A+=1
+    return x
+print (main(4,7))

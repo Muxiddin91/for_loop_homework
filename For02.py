@@ -9,7 +9,7 @@ def main(n):
     list1 = []
     a = 0
     while a<n:
-        list1=list1+[str(a)]
+        list1=list1+[a]
         a+=1
-    return list1
+    return str(list1)
 print (main(5))

@@ -6,4 +6,12 @@ def main(price):
     Returns:
         list: return  answer
     """
-    return
+    r = range(10)
+    list1 = []
+    for a in r:
+        list1+=[int(price*a)]
+    return list1
+print(main(10))
+'''r = range(5)
+for i in r:
+    print(i)'''

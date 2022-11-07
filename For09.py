@@ -11,7 +11,7 @@ def main(price):
     for a in r:
         list1+=[int(price*a)]
     return list1
-print(main(10))
+print(main(12))
 '''r = range(5)
 for i in r:
     print(i)'''

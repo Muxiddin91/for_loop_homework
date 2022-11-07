@@ -6,7 +6,7 @@ def main(price):
     Returns:
         list: return  answer
     """
-    r = range(10)
+    r = range(1,10)
     list1 = []
     for a in r:
         list1+=[int(price*a)]
